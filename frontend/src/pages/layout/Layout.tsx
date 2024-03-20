@@ -74,9 +74,9 @@ const Layout = () => {
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
-                        <Link to="/" className={styles.headerTitleContainer}>
+                        {/* <Link to="/" className={styles.headerTitleContainer}>
                             <h1 className={styles.headerTitle}>{ui?.title}</h1>
-                        </Link>
+                        </Link> */}
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }} className={styles.shareButtonContainer}>
                         {(appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured) &&
