@@ -13,10 +13,10 @@
     margin-left: 20px;
     margin-right: 20px;
     gap: 5px;
-    background-image: url("/src/assets/background.png");
+    /* background-image: url("/src/assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .chatContainer {
@@ -64,7 +64,7 @@
 }
 
 .chatIcon {
-    height: 62px;
+    height: 50vh;
     width: auto;
 }
 
