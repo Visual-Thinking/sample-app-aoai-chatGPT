@@ -66,6 +66,7 @@
 .chatIcon {
     height: 50vh;
     width: auto;
+    border-radius: 50px;
 }
 
 .chatMessageStream {
