@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
 import Logo from "../../assets/logotipo_opp.png";
+import Opp from "../../assets/opp.png";
 import { CopyRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField } from "@fluentui/react";
 import { useContext, useEffect, useState } from "react";
@@ -68,10 +69,15 @@ const Layout = () => {
         <div className={styles.layout}>
             <header className={styles.header} role={"banner"}>
                 <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
-                    <Stack horizontal verticalAlign="center">
+                    <Stack horizontal verticalAlign="center" style={{display: "flex", justifyContent: "space-between"}}>
                         <img
-                            src={ui?.logo ? ui.logo : Logo}
+                            src={Logo}
                             className={styles.headerIcon}
+                            aria-hidden="true"
+                        />
+                         <img
+                            src={Opp}
+                            className={styles.headerIcon2}
                             aria-hidden="true"
                         />
                         {/* <Link to="/" className={styles.headerTitleContainer}>
