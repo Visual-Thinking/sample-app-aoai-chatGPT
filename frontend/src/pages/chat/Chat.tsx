@@ -810,6 +810,114 @@ const Chat = () => {
         </Stack>
       ) : (
         <Stack horizontal className={styles.chatRoot}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "10px",
+              cursor: "pointer",
+              width: "250px",
+              overflowY: "scroll",
+              maxHeight: "100vh",
+            }}
+          >
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion("Exemplo 1");
+              }}
+            >
+              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+            </span>
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion("Exemplo 2");
+              }}
+            >
+              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+            </span>{" "}
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion("Exemplo 3");
+              }}
+            >
+              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+            </span>{" "}
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion("Exemplo 4");
+              }}
+            >
+              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+            </span>
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion("Exemplo 5");
+              }}
+            >
+              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+            </span>
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion("Exemplo 1");
+              }}
+            >
+              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
+              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+            </span>
+          </div>
           <div className={styles.chatContainer}>
             {!messages || messages.length < 1 ? (
               <Stack className={styles.chatEmptyState}>
@@ -886,32 +994,6 @@ const Chat = () => {
                 <div ref={chatMessageStreamEnd} />
               </div>
             )}{" "}
-            <div>
-              <Button
-                onClick={() => {
-                  setdefaultQuestion("Exemplo 1");
-                }}
-                text="Exemplo 1"
-              ></Button>
-              <Button
-                onClick={() => {
-                  setdefaultQuestion("Exemplo 2");
-                }}
-                text="Exemplo 2"
-              ></Button>
-              <Button
-                onClick={() => {
-                  setdefaultQuestion("Exemplo 3");
-                }}
-                text="Exemplo 3"
-              ></Button>
-              <Button
-                onClick={() => {
-                  setdefaultQuestion("Exemplo 4");
-                }}
-                text="Exemplo 4"
-              ></Button>
-            </div>
             <Stack horizontal className={styles.chatInput}>
               {isLoading && (
                 <Stack
