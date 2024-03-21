@@ -501,6 +501,13 @@ def prepare_model_args(request_body):
                 "role": message["role"] ,
                 "content": message["content"]
             })
+    
+    # add system message to respond in European portuguese
+
+    messages.append({
+        "role": "system",
+        "content": "Tu és um assistente de IA que ajuda as pessoas a encontrar informação. Respondes sempre em português europeu."
+    })
 
     model_args = {
         "messages": messages,
