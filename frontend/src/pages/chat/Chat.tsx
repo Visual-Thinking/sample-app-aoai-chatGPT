@@ -829,13 +829,13 @@ const Chat = () => {
                 backgroundColor: "lightgray",
               }}
               onClick={() => {
-                setdefaultQuestion("Exemplo 1");
+                setdefaultQuestion(
+                  "A posição da OPP sobre a psicoterapia é que se trata de uma pseudociência?"
+                );
               }}
             >
-              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+              A posição da OPP sobre a psicoterapia é que se trata de uma
+              pseudociência?
             </span>
             <span
               style={{
@@ -845,45 +845,13 @@ const Chat = () => {
                 backgroundColor: "lightgray",
               }}
               onClick={() => {
-                setdefaultQuestion("Exemplo 2");
+                setdefaultQuestion(
+                  "Qual é a posição da OPP sobre a isenção do IVA nos actos dos psicólogos?"
+                );
               }}
             >
-              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
-            </span>{" "}
-            <span
-              style={{
-                border: "1px solid black",
-                padding: "10px",
-                borderRadius: "5px",
-                backgroundColor: "lightgray",
-              }}
-              onClick={() => {
-                setdefaultQuestion("Exemplo 3");
-              }}
-            >
-              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
-            </span>{" "}
-            <span
-              style={{
-                border: "1px solid black",
-                padding: "10px",
-                borderRadius: "5px",
-                backgroundColor: "lightgray",
-              }}
-              onClick={() => {
-                setdefaultQuestion("Exemplo 4");
-              }}
-            >
-              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+              Qual é a posição da OPP sobre a isenção do IVA nos actos dos
+              psicólogos?
             </span>
             <span
               style={{
@@ -893,13 +861,14 @@ const Chat = () => {
                 backgroundColor: "lightgray",
               }}
               onClick={() => {
-                setdefaultQuestion("Exemplo 5");
+                setdefaultQuestion(
+                  "Como é que eu posso argumentar junto de uma empresa para poder prestar serviços na área do bem-estar e da saúde mental no local de trabalho?"
+                );
               }}
             >
-              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+              Como é que eu posso argumentar junto de uma empresa para poder
+              prestar serviços na área do bem-estar e da saúde mental no local
+              de trabalho?
             </span>
             <span
               style={{
@@ -909,13 +878,59 @@ const Chat = () => {
                 backgroundColor: "lightgray",
               }}
               onClick={() => {
-                setdefaultQuestion("Exemplo 1");
+                setdefaultQuestion(
+                  "Qual a evidência que a saúde psicológica tem impacto na saúde física?"
+                );
               }}
             >
-              Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo
-              1Exemplo 1Exemplo 1Exemplo 1Exemplo 1Exemplo 1
+              Qual a evidência que a saúde psicológica tem impacto na saúde
+              física?
+            </span>
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion(
+                  "Quais as 5 recomendações mais importantes para trabalhar com pessoas refugiadas?"
+                );
+              }}
+            >
+              Quais as 5 recomendações mais importantes para trabalhar com
+              pessoas refugiadas?
+            </span>
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion(
+                  "O que pode um psicólogo fazer no combate à pobreza na perspectiva de um decisor político?"
+                );
+              }}
+            >
+              O que pode um psicólogo fazer no combate à pobreza na perspectiva
+              de um decisor político?
+            </span>
+            <span
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "5px",
+                backgroundColor: "lightgray",
+              }}
+              onClick={() => {
+                setdefaultQuestion(
+                  "Tenho um irmão com uma deficiência e gostaria de poder intervir de forma a que possa viver a sua sexualidade de forma satisfatória. Como devo proceder?"
+                );
+              }}
+            >Tenho um irmão com uma deficiência e gostaria de poder intervir de forma a que possa viver a sua sexualidade de forma satisfatória. Como devo proceder?
             </span>
           </div>
           <div className={styles.chatContainer}>
