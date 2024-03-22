@@ -818,7 +818,7 @@ const Chat = () => {
               cursor: "pointer",
               width: "250px",
               overflowY: "scroll",
-              maxHeight: "100vh",
+              maxHeight: "calc(100vh - 160px)",
             }}
           >
             <span
